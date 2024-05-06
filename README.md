@@ -10,16 +10,16 @@ Below are each folder in the repo.  First the raw segmentations and images must 
 
 ## data
 - `data_preprocessing.ipynb` - data preprocessing for segmentations, CT scans, and metadata as described in report  
-- 'CSV files' - preprocessed metadata in train/val/test splits
-
+- CSV files - preprocessed metadata in train/val/test splits
+  
 ## models
 - `segmentation_model.ipynb` - 3D U-Net segmentation model architecture, training, and evaluation as well as code to mask all training images for classification models
 - `classification_model_2d_resnet_LSTM_cropped.ipynb` - 2D ResNet \& LSTM architecture, as described in report, trained on cropped images of the liver
 - `classification_model_2d_resnet_LSTM_uncropped.ipynb` -  2D ResNet \& LSTM architecture, as described in report, trained on uncropped images of the liver
 - `classification_model_3d_resnet_cropped.ipynb` - 3D ResNet architecture, as described in report, trained on cropped images of the liver
 - `classification_model_3d_resnet_uncropped.ipynb` - 3D ResNet architecture, as described in report, trained on uncropped images of the liver
-- 'Pickle Files' - Loss and accuracy outputs per epoch for each model
+- Pickle Files - Loss and accuracy outputs per epoch for each model
 
 ## evaluation 
 - `classification_model_eval.ipynb` - evaluation and comparison of the 4 liver injury detection models, including an assessment on model explainability
-- 'Pickle Files' - list of dataframes of results for each model type
+- Pickle Files - list of dataframes of results for each model type

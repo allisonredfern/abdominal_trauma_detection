@@ -21,5 +21,5 @@ Below are each folder in the repo.  First the raw segmentations and images must 
 - 'Pickle Files' - Loss and accuracy outputs per epoch for each model
 
 ## evaluation 
--`classification_model_eval.ipynb` - evaluation and comparison of the 4 liver injury detection models, including an assessment on model explainability
+- `classification_model_eval.ipynb` - evaluation and comparison of the 4 liver injury detection models, including an assessment on model explainability
 - 'Pickle Files' - list of dataframes of results for each model type

@@ -6,7 +6,7 @@
 ## EDA
 - `EDA.ipynb` - contains exploratory data analysis of raw data
 
-## cata
+## data
 - `data_preprocessing.ipynb` - data preprocessing for segmentations, CT scans, and metadata as described in report  
   To download raw Kaggle data, run `kaggle competitions download -c rsna-2023-abdominal-trauma-detection` in command line
 - 'CSV files' - preprocessed metadata in train/val/test splits
